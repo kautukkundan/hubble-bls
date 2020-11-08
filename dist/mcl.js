@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getMclInstance = exports.randG2 = exports.randG1 = exports.randFr = exports.newG2 = exports.newG1 = exports.aggreagate = exports.sign = exports.newKeyPair = exports.g2ToHex = exports.g1ToHex = exports.g2 = exports.g1 = exports.toBigEndian = exports.mapToPoint = exports.hashToPoint = exports.setDomainHex = exports.setDomain = exports.init = exports.FIELD_ORDER = void 0;
-const mcl = require("mcl-wasm");
+const mcl = require("react-mcl-wasm");
 const ethers_1 = require("ethers");
 const hashToField_1 = require("./hashToField");
 const utils_1 = require("ethers/lib/utils");

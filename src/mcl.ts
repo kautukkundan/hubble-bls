@@ -1,4 +1,4 @@
-const mcl = require("mcl-wasm");
+const mcl = require("react-mcl-wasm");
 import { BigNumber } from "ethers";
 import { hashToField } from "./hashToField";
 import {
