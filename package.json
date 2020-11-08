@@ -1,7 +1,7 @@
 {
-  "name": "@thehubbleproject/bls",
+  "name": "react-hubble-bls",
   "version": "0.0.3",
-  "description": "",
+  "description": "react version of @hubbleproject/bls",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -10,12 +10,12 @@
     "lint": "prettier --check .",
     "prettier": "prettier --write ."
   },
-  "homepage": "https://github.com/thehubbleproject/hubble-bls",
+  "homepage": "https://github.com/kautukkundan/hubble-bls",
   "author": "",
   "license": "MIT",
   "dependencies": {
     "ethers": "^5.0.18",
-    "mcl-wasm": "^0.4.5"
+    "react-mcl-wasm": "^1.1.0"
   },
   "devDependencies": {
     "@types/chai": "^4.2.14",
